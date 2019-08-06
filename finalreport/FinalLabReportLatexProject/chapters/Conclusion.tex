@@ -1,0 +1,17 @@
+%!TEX root = ../Report.tex
+\chapter{Concluding Remarks and Future Work}
+\section{Concluding Remarks}
+When asked if OCamlFUSE could be built for Android, developer Alessandro Strada responded in 2016 that the libraries he uses in his solution do not support static linking which makes building for Android not possible.\cite{ocamlfuseissue} Unfortunately, I reached the same conclusion. The last attempt was to use an OCaml cross compiler utilizing OPam.\cite{crosscompiler} A cross compiler compiles code that is compatible with an operating system that is not the operating system on which the compiler is being executed. This proved to be difficult for me to achieve due to my lack of knowledge and experience with OPam. \\\\
+Even though the end goal was not accomplished with OCamlFUSE, I was able to switch gears and use RClone to accomplish the task at hand. RClone allows mounting remote directories from multiple cloud storage providers including Google Drive, Dropbox, Microsoft OneDrive, and pCloud.\\\\
+I used Linux extensively in this course, which was very beneficial for me since most of my professional work is performed using the Windows operating system. It is very important to me that I do not silo myself into using any one particular environment. I was also exposed to a new programming language, OCaml, in order to better understand the inner workings of the OCamlFUSE implementation. There were other options available which used familiar languages, but I truly wanted to put myself in a position of learning while working on the project for this course. I did not want to settle for something familiar, because that would not allow me to add another skill to my tool-set. \\\\
+FUSE was another great interface to learn about. Dr. Mateti recommended it and it certainly made sense to focus on FUSE since Android uses this interface for its file system management. I made lots of decisions for this project solely based on the premise of learning something new. Although I did not complete certain lab reports for this project, I still felt it was beneficial that Dr. Mateti recommended I attempt lab reports about ODrive, X-Plore, ES File Explorer, and SSHFS. These are all topics I briefly looked into, but did not have time to complete a full lab report. Now, I can recognize these words and understand that they are connected to file systems, Android devices, and mounting. This alone is more than I knew before taking this course. I am also much more familiar with the purpose of an OTG cable and how to effectively mount a USB. I now have a pretty solid understanding of InSync and RClone as a result of performing the tasks necessary to put together lab reports for each of those items.
+\section{Future Work}
+As mentioned before, certain tasks planned for this semester were not completed within the allotted time. These will be postponed for future semesters in order to achieve the completion of this project by the deadline. Given more time, these are the items that would have been completed:
+\begin{enumerate}
+\item Continued Efforts into OCamlFUSE Execution on Android
+\item ODrive Lab Report
+\item X-Plore Lab Report
+\item Write FileSystem with FUSE Lab Report
+\item ES File Explorer Lab Report
+\item Mounting using SSHFS Lab Report
+\end{enumerate}
